@@ -1,0 +1,17 @@
+{
+  "name": "bluebird",
+  "description": "Full featured Promises/A+ implementation with exceptionally good performance (optimized for mobile)",
+  "version": "2.9.24",
+  "homepage": "https://github.com/petkaantonov/bluebird",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mobile-optimized/bluebird.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Petka Antonov",
+    "email": "petka_antonov@hotmail.com",
+    "url": "http://github.com/petkaantonov/"
+  },
+  "main": "./bluebird.min.js"
+ 

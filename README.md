@@ -1,3 +1,6 @@
+>This project has been modified from the original to be smaller and more compatible for use with the MobileHero Platform.
+
+
 <a href="http://promisesaplus.com/">
     <img src="http://promisesaplus.com/assets/logo-small.png" alt="Promises/A+ logo"
          title="Promises/A+ 1.1 compliant" align="right" />

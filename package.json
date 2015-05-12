@@ -13,6 +13,6 @@
     "email": "petka_antonov@hotmail.com",
     "url": "http://github.com/petkaantonov/"
   },
-  "main": "./bluebird.js"
+  "main": "./bluebird.js" 
  
 }

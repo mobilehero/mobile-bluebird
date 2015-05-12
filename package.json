@@ -1,7 +1,7 @@
 {
   "name": "@mobile/bluebird",
   "description": "Full featured Promises/A+ implementation with exceptionally good performance (optimized for mobile)",
-  "version": "2.9.24",
+  "version": "2.9.25",
   "homepage": "https://github.com/petkaantonov/bluebird",
   "repository": {
     "type": "git",
@@ -13,6 +13,5 @@
     "email": "petka_antonov@hotmail.com",
     "url": "http://github.com/petkaantonov/"
   },
-  "main": "./bluebird.js" 
- 
+  "main": "./bluebird.js"
 }

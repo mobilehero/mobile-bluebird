@@ -1,5 +1,7 @@
->⚡ This is a repackaging of:  [`https://github.com/petkaantonov/bluebird`]()  
+>⚡ This is a repackaging of:  [`https://github.com/petkaantonov/bluebird`](https://github.com/petkaantonov/bluebird)  
 >*This project has been modified from the original to be smaller for use with mobile frameworks*
+
+---
 
 <a href="http://promisesaplus.com/">
     <img src="http://promisesaplus.com/assets/logo-small.png" alt="Promises/A+ logo"

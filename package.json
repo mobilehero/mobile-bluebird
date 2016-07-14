@@ -1,7 +1,7 @@
 {
   "name": "@mobile/bluebird",
   "description": "Repackaged version of bluebird Promises/A+ implementation for mobile",
-  "version": "2.9.26",
+  "version": "2.9.31",
   "keywords": [
     "promise",
     "performance",
@@ -44,7 +44,7 @@
     "postupdate:download": "npm install %npm_package_source_name%@%npm_package_version% && npm run update:copy",
     "postupdate:commit": "npm run commit && npm run tag",
     "postupdate:push": "npm run postupdate:commit && npm run push",
-    "postupdate:publish": "npm run publish"
+    "postupdate:publish": "npm publish"
   },
   "source": {
     "name": "bluebird",

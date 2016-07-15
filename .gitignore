@@ -7,3 +7,4 @@ js/*
 zalgo.js
 coverage/*
 .vscode
+npm-debug.log

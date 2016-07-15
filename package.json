@@ -1,7 +1,7 @@
 {
   "name": "@mobile/bluebird",
   "description": "Repackaged version of bluebird Promises/A+ implementation for mobile",
-  "version": "3.0.6",
+  "version": "3.1.0",
   "keywords": [
     "promise",
     "performance",
@@ -38,7 +38,7 @@
     "push": "git push && git push --tags",
     "update:version": "npm --no-git-tag-version version --",
     "update:download": "npm run update:version --",
-    "update:copy": "cp ./node_modules/hjson/lib/hjson.js . && cp ./node_modules/hjson/history.md .",
+    "update:copy": "cp ./node_modules/bluebird/js/browser/bluebird.js .",
     "update:commit": "npm run update:version --",
     "update:push": "npm run update:version --",
     "update:publish": "npm run update:version --",

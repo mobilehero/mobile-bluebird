@@ -1,5 +1,7 @@
 >⚡ This is a repackaging of:  [`https://github.com/petkaantonov/bluebird`](https://github.com/petkaantonov/bluebird)  
 >*This project has been modified from the original to be smaller for use with mobile frameworks*
+>[![NPM version](https://img.shields.io/npm/v/%40mobile%2Fbluebird.svg?style=flat-square)](http://www.npmjs.com/package/%40mobile%2Fbluebird)
+
 
 ---
 

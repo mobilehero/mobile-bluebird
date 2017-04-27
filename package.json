@@ -1,7 +1,7 @@
 {
   "name": "@mobile/bluebird",
   "description": "Repackaged version of bluebird Promises/A+ implementation for mobile",
-  "version": "3.4.6",
+  "version": "3.4.7",
   "keywords": [
     "promise",
     "performance",
@@ -32,11 +32,11 @@
   "main": "./bluebird.js",
   "readmeFilename": "README.md",
   "scripts": {
-    "download": "npm install %npm_package_source_name%@%npm_package_version%",
-    "commit": "git add -A && git commit -m \":checkered_flag: v%npm_package_version% :heavy_minus_sign: Repackaging from: %npm_package_source_url%\"",
-    "tag": "git tag v%npm_package_version%",
+    "download": "npm install $npm_package_source_name@$npm_package_version",
+    "commit": "git add -A && git commit -m \":checkered_flag: v$npm_package_version :heavy_minus_sign: Repackaging from: $npm_package_source_url\"",
+    "tag": "git tag v$npm_package_version",
     "push": "git push && git push --tags",
-    "update:version": "npm --no-git-tag-version version --",
+    "update:version": "npm --no-git-tag-version --allow-same-version version --",
     "update:download": "npm run update:version --",
     "update:copy": "cp ./node_modules/bluebird/js/browser/bluebird.js .",
     "update:commit": "npm run update:version --",
@@ -50,5 +50,15 @@
   "source": {
     "name": "bluebird",
     "url": "https://www.npmjs.com/package/bluebird"
+  },
+  "mobile": {
+    "modules": {
+      "fallback": [
+        {
+          "id": "bluebird",
+          "path": "./bluebird"
+        }
+      ]
+    }
   }
 }

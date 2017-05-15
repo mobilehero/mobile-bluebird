@@ -53,12 +53,9 @@
   },
   "mobile": {
     "modules": {
-      "fallback": [
-        {
-          "id": "bluebird",
-          "path": "./bluebird"
+      "fallback": {
+          "bluebird": "./bluebird"
         }
-      ]
     }
   }
 }

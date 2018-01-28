@@ -1,7 +1,8 @@
 {
   "name": "@mobile/bluebird",
   "description": "Repackaged version of bluebird Promises/A+ implementation for mobile",
-  "version": "3.5.0",
+  "version": "3.5.1",
+  "alias": "bluebird",
   "keywords": [
     "promise",
     "performance",
@@ -32,7 +33,7 @@
   "main": "./bluebird.js",
   "readmeFilename": "README.md",
   "scripts": {
-    "download": "npm install $npm_package_source_name@$npm_package_version",
+    "download": "npm install --save-dev $npm_package_source_name@$npm_package_version",
     "commit": "git add -A && git commit -m \":checkered_flag: v$npm_package_version :heavy_minus_sign: Repackaging from: $npm_package_source_url\"",
     "tag": "git tag v$npm_package_version",
     "push": "git push && git push --tags",
@@ -52,13 +53,17 @@
     "url": "https://www.npmjs.com/package/bluebird"
   },
   "mobile": {
+    "alias": "bluebird",
     "modules": {
       "fallback": {
         "bluebird": "./bluebird"
       }
     }
   },
-  "dependencies": {
-    "bluebird": "^3.5.0"
+  "devDependencies": {
+    "bluebird": "^3.5.1",
+    "eslint": "^4.14.0",
+    "eslint-plugin-jsdoc": "^3.3.0",
+    "eslint-plugin-promise": "^3.6.0"
   }
 }

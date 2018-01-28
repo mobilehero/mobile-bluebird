@@ -5,10 +5,10 @@ deploy:
   provider: npm
   email: brenton.house@gmail.com
   api_key:
-    secure: kIwemh+NDbN5Q+0qjuiA3BylX96tJfNKQ9n4p3qg4Vz9q8G/3PTAVwhCmxDsMYb5OZXelwYbb0RyrYvjsOIsk+xe1LOdt1TfbI9HfK6z2QE5KGyrZZNdrIERPguRvxIEV2UprOwSHaDfFhTuAAtv19/JZUbwhE6RDk0FV7uhTlTbrm9t7QCAWVd/r2uz18OAyFRjsDwz5a5yk32NwZhH4euskLYWudORj9u7QoqsG0tEqIaD4xteFs1tSpquoM4rUaEOK8hxygXD81BpDfmR/pE93EAHGQGJuJX/TjDkmcTvqjIv3vVMVbN62FFapi9bt+FwWUrDCGAYDnTjloLE5JCpJjiLhy+CwH3JVlsLXfPITz9hq4suTJ8t6lL+cD7Np/7dzBMbpUHGQzLnIFImkwZWmTJ1ibr6JtzI4iUPre3IJIOf+vuv6SgIkw8m9hrqPsn548xymNs7PqyYzcAXol4gMqK2Gmtsb4sT7RfgiJnVDklUt8fuKpaQKd9BqykAHTlSeFjoQTKpEPiNiDMiGasXpyC3vQ6ET1YsXP84IPilWkjC17UBmAatLVg3mEg58ECySz9c3Lk5/tPXTl2xjHQVqzlOTATUEITfwB+JI5yRK0HY71/17Pq/qiaZXKDq22M88GZj+gaFbNPN2VtLnYa9dWa4jnaH07asmUTiNno=
+    secure: 
   on:
     tags: true
-    repo: brentonhouse/titanium-fs
+    repo: mobilerhero/mobile-bluebird
   branches:
     only:
     - master

@@ -1,3 +1,9 @@
+# Ignore everything
+*
+
+# But not these files...
 !package.json
-!**/*.js
-**/**
+!bluebird.js
+
+# ...even if they are in subdirectories
+!*/

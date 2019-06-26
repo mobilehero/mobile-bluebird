@@ -42,9 +42,11 @@
 		"update:copy": "cp ./node_modules/bluebird/js/browser/bluebird.js .",
 		"update:commit": "npm run update:version --",
 		"update:push": "npm run update:version --",
+		"update:push-only": "npm run update:version --",
 		"update:publish": "npm run update:version --",
 		"postupdate:download": "npm run download && npm run update:copy",
 		"postupdate:commit": "npm run commit && npm run tag",
+		"postupdate:push-only": "npm run postupdate:commit && npm run push",
 		"postupdate:push": "npm run postupdate:download && npm run postupdate:commit && npm run push",
 		"postupdate:publish": "npm run postupdate:push && npm publish"
 	},

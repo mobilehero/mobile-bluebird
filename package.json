@@ -1,7 +1,7 @@
 {
 	"name": "@mobile/bluebird",
 	"description": "Repackaged version of bluebird Promises/A+ implementation for mobile",
-	"version": "3.5.1-2",
+	"version": "3.5.2",
 	"alias": "bluebird",
 	"keywords": [
 		"promise",
@@ -61,7 +61,7 @@
 		}
 	},
 	"devDependencies": {
-		"bluebird": "^3.5.1",
+		"bluebird": "^3.5.2",
 		"eslint": "^4.14.0",
 		"eslint-plugin-jsdoc": "^3.3.0",
 		"eslint-plugin-promise": "^3.6.0"

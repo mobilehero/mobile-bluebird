@@ -40,7 +40,7 @@
 		"update:version": "npm --no-git-tag-version --allow-same-version version --",
 		"update:download": "npm run update:version --",
 		"update:copy": "cp ./node_modules/bluebird/js/browser/bluebird.js .",
-		"update:commit": "npm run update:version --",
+		"update:commit": "",
 		"update:push": "npm run update:version --",
 		"update:push-only": "npm run update:version --",
 		"update:publish": "npm run update:version --",

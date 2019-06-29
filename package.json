@@ -1,7 +1,7 @@
 {
 	"name": "@mobile/bluebird",
 	"description": "Repackaged version of bluebird Promises/A+ implementation for mobile",
-	"version": "3.5.3-2",
+	"version": "3.5.3-3",
 	"alias": "bluebird",
 	"keywords": [
 		"promise",
@@ -41,13 +41,13 @@
 		"update:download": "npm run update:version --",
 		"update:copy": "cp ./node_modules/bluebird/js/browser/bluebird.js .",
 		"update:commit": "",
+		"update:push2": "npm run update:version --",
 		"update:push": "npm run update:version --",
-		"update:push-only": "npm run update:version --",
 		"update:publish": "npm run update:version --",
 		"postupdate:download": "npm run download && npm run update:copy",
 		"postupdate:commit": "npm run commit && npm run tag",
-		"postupdate:push-only": "npm run postupdate:commit && npm run push",
-		"postupdate:push": "npm run postupdate:download && npm run postupdate:commit && npm run push",
+		"postupdate:push": "npm run postupdate:commit && npm run push",
+		"postupdate:push2": "npm run postupdate:download && npm run postupdate:commit && npm run push",
 		"postupdate:publish": "npm run postupdate:push && npm publish"
 	},
 	"source": {
